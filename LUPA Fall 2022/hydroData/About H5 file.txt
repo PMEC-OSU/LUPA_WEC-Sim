@@ -1,0 +1,5 @@
+ReadMe
+
+The float and spar were run separately in WAMIT, then combined in BEMIO with an upper and lower limit on the IRF calculations. Therefore there are no body-to-body interactions in this H5 file.
+The spar has been cut where it naturally meets the float to avoid any mesh overlap and because the spar is not exposed to waves near the surface in any condition.
+The BEM results have been smoothed with a smoothing function from SANDIA by Dom Forbush. 

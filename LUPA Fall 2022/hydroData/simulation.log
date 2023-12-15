@@ -1,0 +1,36 @@
+
+WEC-Sim Input From Standard wecSimInputFile.m Of Case Directory... 
+WEC-Sim: An open-source code for simulating wave energy converters
+Version: 5.0.1
+
+Initializing the Simulation Class...
+	Case Dir: C:\Users\beringec\Box\Courtney Beringer\LUPA code\LUPA Experimental Campaign Fall 2022\NumericalAnalysis\WEC-Sim Files\hydroData 
+wecSimMCR Case 1
+[Warning: "waves.period" is not used for the hydrodynamic data period when using the "noWaveCIC" wave type] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('waveClass/checkInputs', '\\depot.engr.oregonstate.edu\users\beringec\Windows.Documents\My Documents\WEC-Sim github\WEC-Sim\source\objects\waveClass.m', 181)" style="font-weight:bold">waveClass/checkInputs</a> (<a href="matlab: opentoline('\\depot.engr.oregonstate.edu\users\beringec\Windows.Documents\My Documents\WEC-Sim github\WEC-Sim\source\objects\waveClass.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('initializeWecSim', '\\depot.engr.oregonstate.edu\users\beringec\Windows.Documents\My Documents\WEC-Sim github\WEC-Sim\source\functions\initializeWecSim.m', 100)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('\\depot.engr.oregonstate.edu\users\beringec\Windows.Documents\My Documents\WEC-Sim github\WEC-Sim\source\functions\initializeWecSim.m',100,0)">line 100</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', '\\depot.engr.oregonstate.edu\users\beringec\Windows.Documents\My Documents\WEC-Sim github\WEC-Sim\source\wecSim.m', 43)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('\\depot.engr.oregonstate.edu\users\beringec\Windows.Documents\My Documents\WEC-Sim github\WEC-Sim\source\wecSim.m',43,0)">line 43</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSimMCR', '\\depot.engr.oregonstate.edu\users\beringec\Windows.Documents\My Documents\WEC-Sim github\WEC-Sim\source\wecSimMCR.m', 92)" style="font-weight:bold">wecSimMCR</a> (<a href="matlab: opentoline('\\depot.engr.oregonstate.edu\users\beringec\Windows.Documents\My Documents\WEC-Sim github\WEC-Sim\source\wecSimMCR.m',92,0)">line 92</a>)] 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('simulationClass/checkInputs')" style="font-weight:bold">simulationClass/checkInputs</a>
+The simMechanics file, C:\Users\beringec\Box\Courtney Beringer\LUPA code\LUPA Experimental Campaign Fall 2022\NumericalAnalysis\WEC-Sim
+Files\hydroData\LUPAsim.slx, does not exist in the case directory
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('initializeWecSim', '\\depot.engr.oregonstate.edu\users\beringec\Windows.Documents\My Documents\WEC-Sim github\WEC-Sim\source\functions\initializeWecSim.m', 101)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('\\depot.engr.oregonstate.edu\users\beringec\Windows.Documents\My Documents\WEC-Sim github\WEC-Sim\source\functions\initializeWecSim.m',101,0)">line 101</a>)
+simu.checkInputs();
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run', 'C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m', 91)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2022b\toolbox\matlab\lang\run.m',91,0)">line 91</a>)
+evalin('caller', strcat(script, ';'));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', '\\depot.engr.oregonstate.edu\users\beringec\Windows.Documents\My Documents\WEC-Sim github\WEC-Sim\source\wecSim.m', 43)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('\\depot.engr.oregonstate.edu\users\beringec\Windows.Documents\My Documents\WEC-Sim github\WEC-Sim\source\wecSim.m',43,0)">line 43</a>)
+run('initializeWecSim');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSimMCR', '\\depot.engr.oregonstate.edu\users\beringec\Windows.Documents\My Documents\WEC-Sim github\WEC-Sim\source\wecSimMCR.m', 92)" style="font-weight:bold">wecSimMCR</a> (<a href="matlab: opentoline('\\depot.engr.oregonstate.edu\users\beringec\Windows.Documents\My Documents\WEC-Sim github\WEC-Sim\source\wecSimMCR.m',92,0)">line 92</a>)
+    wecSim;
+} 
+wecSimMCR
+WEC-Sim: An open-source code for simulating wave energy converters
+Version: 5.0.1
+
+Initializing the Simulation Class...
+	Case Dir: C:\Users\beringec\Box\Courtney Beringer\LUPA code\LUPA Experimental Campaign Fall 2022\NumericalAnalysis\WEC-Sim Files\OneBodyHeaveOnly\Regular Waves 
