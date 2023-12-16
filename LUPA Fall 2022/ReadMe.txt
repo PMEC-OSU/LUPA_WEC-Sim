@@ -1,5 +1,7 @@
 This is the ReadMe for the LUPA WEC-Sim models based on the experimental testing in Fall 2022.
 
+WEC-Sim version v5.0.1, MATLAB version R2022b
+
 The input parameters are estimated in Beringer et al., a paper in the review and editing stage of publishing.
 
 The three LUPA configurations are given as One-Body Heave-Only, Two-Body Heave-Only, and Two-Body Six-DOF. 
