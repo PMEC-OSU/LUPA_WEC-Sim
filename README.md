@@ -1,6 +1,6 @@
 # LUPA_WEC-Sim
 WEC-Sim models of LUPA device
-
+WEC-Sim version v5.0.1, MATLAB version R2022b
 This is the ReadMe for the LUPA WEC-Sim models based on the experimental testing in Fall 2022.
 
 The input parameters are estimated in Beringer et al., a paper in the review and editing stage of publishing.
