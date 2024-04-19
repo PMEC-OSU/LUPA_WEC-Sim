@@ -1,4 +1,4 @@
-This is the ReadMe for the LUPA WEC-Sim models based on the experimental testing in Fall 2022.
+This is the ReadMe for the LUPA WEC-Sim models based on the experimental testing in Fall 2022. In this testing, the spar was positively buoyant, restored by taut mooring lines in pretension. 
 
 WEC-Sim version v5.0.1, MATLAB version R2022b
 
