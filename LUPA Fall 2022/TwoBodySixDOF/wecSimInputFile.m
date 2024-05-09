@@ -30,7 +30,7 @@ body(1).quadDrag.area = [0.368 0.368 0.785 0.368 0.368 0.785];  % [m^2] Cross se
 %% Body 2: Spar
 body(2) = bodyClass('..\hydroData\lupa.h5');
 body(2).geometryFile = '..\geometry\LUPA_Fall2022_spar_geometry.stl';
-body(2).mass = 175.536;                                             % [m] Set to equilibrium to achieve SWL at no wave condition due to positively bouyant spar.
+body(2).mass = 175.536;                                             % [m] Positively bouyant spar.
 body(2).viz.color = [211/256 211/256 211/256];
 body(2).inertia = [253.6344  250.4558 12.746];                      % [kg-m^2] As measured from dry swing tests
 body(2).quadDrag.cd = [0.6 0.6 2.8 0.6 0.6 2.8];                    % [-] Quadratic drag coefficient Cd as found from Beatty 2015 and Singh & Mittal 2005
