@@ -29,11 +29,11 @@ body(1).quadDrag.area = [0 0 pi*(0.5)^2 0 0 0]; % [m^2] Cross sectional area of 
 %% Body 2: Spar
 body(2) = bodyClass('..\hydroData\lupa.h5');
 body(2).geometryFile = '..\geometry\LUPA_Fall2022_spar_geometry.stl';
-body(2).mass = 175.536;                             % [m] Set to equilibrium to achieve SWL at no wave condition due to positively bouyant spar.
+body(2).mass = 175.536;                             % [kg] Not set to equilibrium to achieve SWL at no wave condition due to positively buoyant spar.
 body(2).viz.color = [211/256 211/256 211/256];
 body(2).inertia = [253.6344  250.4558 12.746];      % [kg-m^2] As measured from dry swing tests
 body(2).quadDrag.cd = [0 0 2.8 0 0 0];              % [-] Quadratic drag coefficient Cd as found from Beatty 2015
-body(2).quadDrag.area = [0 0 pi*(0.45)^2 0 0 0];    % [m^2] Cross sectional area of body at water plane
+body(2).quadDrag.area = [0 0 pi*(0.45)^2 0 0 0];    % [m^2] Characteristic area of the heave plate
 body(2).linearDamping(3,3) = 700;                   % [N/m/s] Linear damping  Found experimentally through free decay tests. It is negative because it is a mechanical loss from the heave constraint.
 body(2).setInitDisp([0 0 0],[0 0 0 0],[0 0 -0.67]); % [m] Initial Displacement  Set to engage mooring lines for pre-tension.
 
