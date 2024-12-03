@@ -1,4 +1,4 @@
-LUPA WEC-Sim Models with MoorDyn based on Fall 2023 experimental testing.
+LUPA WEC-Sim Model with MoorDyn based on Fall 2023 experimental testing.
 
 WEC-Sim Version 6.1
 
