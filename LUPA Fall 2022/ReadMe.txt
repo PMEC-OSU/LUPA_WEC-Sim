@@ -4,7 +4,10 @@ The models reference the .stl files in the geometry folder and the .h5 files in 
 Each configuration has its own wecSimInputFile, Simulink file, and userDefinedFunctions post processing code. 
 The WAMIT input and output files are also provided. 
 
-The numerical input parameters are estimated in Beringer et al., a paper in the review and editing stage of publishing.
+Basic details
+- 2.7 meter water depth
+- Approximate physical test dates: 09/27/2022 - 12/09/2022
+Additional numerical input parameters are estimated in Beringer et al., a paper in the review and editing stage of publishing.
 
 WEC-Sim version v5.0.1, MATLAB version R2022b
 
