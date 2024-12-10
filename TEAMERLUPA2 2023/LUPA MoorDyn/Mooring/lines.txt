@@ -7,7 +7,7 @@ rope     0.0127     1.0134      7500        -1      0    1.0     0.0    1.6     
 ---------------------------- BODIES -----------------------------------------------------
 ID   Attachment  X0     Y0    Z0     r0      p0     y0     Mass  CG*   I*      Volume   CdA*   Ca
 (#)     (-)      (m)    (m)   (m)   (deg)   (deg)  (deg)   (kg)  (m)  (kg-m^2)  (m^3)   (m^2)  (-)
-1       Body1     0    0   0    0       0      0     0.0   0    0         0       0      0
+1       Body1     0    0   0    0       0      0     0.0   0    0         0       0      0 		- body1 is a massless body that mooring lines connects to - different from body(1) in WEC-Sim
 ---------------------- POINTS  -----------------------------------------------------
 ID      Attachment    X      Y     Z            Mass   Volume     CdA     CA
 (#)     (word/ID)    (m)    (m)   (m)           (kg)   (mˆ3)      (m^2)   (-)
@@ -25,7 +25,7 @@ ID     LineType  AttachA  AttachB  UnstrLen     NumSegs   LineOutputs
 3        rope     5         6        3.025        25        tp
 ---------------------- OPTIONS-----------------------------------------
 0.00002                                                    dtM             - time step to use in mooring integration (s)
-3.7							    WtrDpth	    - water depth
+3.69							    WtrDpth	    - water depth
 0.5                                                           dtIC      		- time interval for analyzing convergence during IC gen
 200.0                                                       TmaxIC    		- max time for ic gen (s)
 0.01                                                       threshIC  		- threshold for IC convergence (-)   
