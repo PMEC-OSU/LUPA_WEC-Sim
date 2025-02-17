@@ -1,0 +1,11 @@
+float.pot -- file type .gdf, ILOWHI=0, IRR=0
+2.7                             HBOT
+1           1                  	IRAD, IDIFF
+ -150                         	NPER
+ -0.1 0.1                    	PER 
+ 1                          	NBETA 
+0.0                       	BETA 
+ 1 				NBODY
+topless_float.gdf 
+ 0.01 0.0 0.06 0.0 		XBODY(1-4)
+ 1  1  1  1  1  1               IMODE(1-6)
