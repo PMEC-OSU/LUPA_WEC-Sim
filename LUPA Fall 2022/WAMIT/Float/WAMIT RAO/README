@@ -1,3 +1,4 @@
 ReadMe
 
 This is all the same information as the WAMIT run in the Float folder with the addition of the float.4 file and scripts and mat files to give the RAO results.
+Use the getWAMITRAO.m function and change the mode to plot different degrees of freedom RAOs. The results save as a .mat file called RAO_float.mat. 
