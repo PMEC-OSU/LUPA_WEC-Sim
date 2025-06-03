@@ -1,0 +1,11 @@
+This is the ReadMe for the LUPA WEC-Sim model based on the experimental testing in Fall 2023 at the O.H. Hinsdale Wave Research Laboratory in Corvallis, OR, USA. This was the second LUPA testing and thus is named "LUPATEAMER2" in the Hinsdale data repository. In this testing, the spar was negatively buoyant, changed from the first LUPA testing campagin where the spar was positively buoyant. 
+Only the two-body, 6DOF LUPA configuration was tested in this campaign. Look at LUPA Fall 2022 for information on the other two configurations.
+The model reference the .stl files in the geometry folder and the .h5 files in the hydroData folder. 
+The WAMIT input and output files are also provided. 
+
+Basic details
+- 3.69 meter water depth
+- Approximate physical test dates: 10/16/2023 - 11/13/2023
+- changes to note from the previous LUPA Fall 2022 campagin are the spar design and the water depth
+
+WEC-Sim version v6.1.2, MATLAB version R2023b
