@@ -1,9 +1,9 @@
-# LUPA WEC-Sim Model — Fall 2023
+# 20 m LUPA WEC-Sim Model — Infinite Depth
 
 This is the ReadMe for the **20 m** LUPA WEC-Sim model with *infinite water depth* based on the experimental testing in **Fall 2023** at the O.H. Hinsdale Wave Research Laboratory in Corvallis, OR, USA. 
 For information on the other two configurations, see **LUPA Fall 2022**.
 
-**NOTE:** This *scaled* model is set at *infinite water depth* and cannot be used for validation with experimental data.
+**NOTE:** This *scaled* model is set at *infinite water depth*.
 
 The model references:
 - `.stl` files in the `geometry` folder
@@ -13,7 +13,7 @@ The model references:
 ## Basic Details
 
 - **Water depth:** infinite
-- **Scale-size:** 20x experimentally tested TEAMERLUPA2
+- **Scale-size:** 20x experimentally tested TEAMERLUPA2 WEC
 - **Changes from LUPA Fall 2022:** spar design and water depth
 
 ## Software Versions
