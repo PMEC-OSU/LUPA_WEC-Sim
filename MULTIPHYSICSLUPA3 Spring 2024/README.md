@@ -1,4 +1,4 @@
-# LUPA WEC-Sim Model — Fall 2023
+# LUPA WEC-Sim Model — Spring 2024
 
 This is the ReadMe for the LUPA WEC-Sim model based on the experimental testing in **Spring 2024** at the O.H. Hinsdale Wave Research Laboratory in Corvallis, OR, USA. 
 This was the third LUPA testing and the only configuration tested was the two-body, heave-only LUPA configuration.  
