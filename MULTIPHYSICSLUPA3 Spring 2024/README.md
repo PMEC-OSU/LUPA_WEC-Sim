@@ -1,10 +1,7 @@
 # LUPA WEC-Sim Model — Spring 2024
 
-This is the ReadMe for the LUPA WEC-Sim model based on the experimental testing in **Spring 2024** at the O.H. Hinsdale Wave Research Laboratory in Corvallis, OR, USA. 
-This was the third LUPA testing and the only configuration tested was the two-body, heave-only LUPA configuration.  
-For information on the other two configurations, see **LUPA Fall 2022** or **TEAMERLUPA Fall 2023** (for updated spar design & 6DOF model).
+This is the ReadMe for the LUPA WEC-Sim model based on the experimental testing in **Spring 2024** at the O.H. Hinsdale Wave Research Laboratory in Corvallis, OR, USA. This was the third LUPA testing and the only configuration tested was the two-body, heave-only LUPA configuration. For information on the other two configurations, see **LUPA Fall 2022** or **TEAMERLUPA Fall 2023** (for updated spar design & 6DOF model).
 
-The models reference the .stl files in the geometry folder and the .h5 files in the hydroData folder.
 Two heave plate diameters were tested, 0.9 m and 1.14 m.
 Each configuration has its own wecSimInputFile, Simulink file, and userDefinedFunctions post processing code in folders named 'TwoBodyHeaveOnly_D0_9m' and 'TwoBodyHeaveOnly_D1_14m' respectively. 
 
