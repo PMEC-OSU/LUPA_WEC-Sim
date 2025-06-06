@@ -1,4 +1,4 @@
-# LUPA WEC-Sim Model — Fall 2023
+# LUPA WEC-Sim Model — Infinite Water Depth
 
 This is the ReadMe for the LUPA WEC-Sim model with *infinite water depth* based on the experimental testing in **Fall 2023** at the O.H. Hinsdale Wave Research Laboratory in Corvallis, OR, USA. 
 For information on the other two configurations, see **LUPA Fall 2022**.
