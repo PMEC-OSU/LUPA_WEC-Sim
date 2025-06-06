@@ -1,0 +1,6 @@
+Warning and error log from POTEN run:  06-Jun-2025 09:39:30
+
+  Warning: IRR>0 but no interior free-surface for body=1
+
+
+  POTEN module run completed

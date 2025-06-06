@@ -1,0 +1,91 @@
+
+WAMITLOG.TXT file from WAMIT run:  06-Jun-2025 09:39:30
+
+ Input file config.wam
+ generic configuration file:  config.wam
+ RAMGBMAX=16
+ NCPU=2
+ USERID_PATH=\wamitv7\   (directory for *.exe, *.dll, and userid.wam)
+ LICENSE_PATH=\wamitv7\license
+
+ Input file float.cfg
+ ipltdat=5
+ maxscr=1024  (assign a maximum block of 1024*1024 RAM for scratch LHS)
+ ISOR=0       (omit ISOR in POT file, include source formulation)
+ ISOLVE=1     (use direct solver)
+ ISCATT=0     (solve for total diffraction potential, not scattering)
+ ILOG=1       (omit ILOG in POT file, integrate log singularity)
+ IRR =1
+ IPERIN=2     (input frequencies in radians per second)
+ ILOWHI=0     (use high-order panel method)
+ ILOWGDF=0    (write low order gdf)
+ IALTPOT=2
+ RAMGBMAX=16.0
+ INUMOPT5=1
+ PANEL_SIZE=1.0 (average length of panel)
+ MONITR=0     (do not write FORCE output data to monitor)
+ NUMHDR=1     (write headers to numeric output files)
+
+POTEN run started:  06-Jun-2025 09:39:30
+
+ Input file float.pot
+float.pot -- file type .gdf, ILOWHI=0, IRR=0
+2.78                            HBOT
+1           1                  	IRAD, IDIFF
+ -150                         	NPER
+ -0.1 0.1                    	PER
+ 1                          	NBETA
+0.0                       	BETA
+ 1 				NBODY
+float.gdf
+ 00 0.0 0.02 0.0 		XBODY(1-4)
+ 1  1  1  1  1  1               IMODE(1-6)
+
+ First    10 lines of input file float.gdf
+Rhino->WAMIT file export (mesh)
+1 9.80665 	ULEN GRAV
+0  0 	ISX  ISY
+826
+  0.02887 -0.00673 -0.46000
+  0.02494 -0.01888 -0.46000
+  0.01163 -0.01219 -0.46000
+  0.02118 0.00139 -0.46000
+  0.02887 -0.00673 -0.46000
+  0.02118 0.00139 -0.46000
+
+  Warning: IRR>0 but no interior free-surface for body=1
+
+
+
+ Number of processors used :   2
+
+ Estimated RAM used :  2.0E-02 Gigabytes
+
+  POTEN module run completed
+
+POTEN run completed:  06-Jun-2025 09:39:46
+
+FORCE run started:  06-Jun-2025 09:39:46
+
+ Input file float.frc
+float.frc -- file type .gdf, ILOWHI=0, IRR=1
+ 1    0    2    0    0    0    0    0    0   IOPTN(1-9)
+ 0				             VCG
+ 0.000000      .0000000      .0000000
+ .0000000      0.000000      .0000000
+ .0000000      .0000000      0.000000        XPRDCT
+ 0                                           NBETAH
+ 0                                           NFIELD
+
+
+  Warning: Zero-frequency limit in finite depth
+
+          See User Manual Sections 3.9 and 15.12
+
+FORCE run completed:  06-Jun-2025 09:39:49
+
+  WAMIT run completed
+
+ See WARNING messages in ERRORP.LOG file 
+
+ See WARNING messages in ERRORF.LOG file  
