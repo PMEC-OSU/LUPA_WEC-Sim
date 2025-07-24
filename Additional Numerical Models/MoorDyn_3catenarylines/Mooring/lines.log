@@ -1,0 +1,73 @@
+MoorDyn v2 log file with output level MSG at 'Mooring\lines.log'
+Generated entities:
+	nLineTypes  = 1
+	nRodTypes   = 0
+	nPoints     = 6
+	nBodies     = 1
+	nRods       = 0
+	nLines      = 3
+	nFails      = 0
+	nFreeBodies = 1
+	nFreeRods   = 0
+	nFreePoints  = 0
+	nCpldBodies = 0
+	nCpldRods   = 0
+	nCpldPoints = 0
+Time integrator = 2nd order Runge-Kutta
+No Waves or Currents, or set externally
+Creating mooring system...
+  - Line1:
+    ID: 1
+    UnstrLen: 3.025
+    N   : 25
+    d   : 0.0127
+    rho : 7999.88
+    E   : 5.92058e+07
+    EI  : 0
+    BAin: -1
+    Can : 0
+    Cat : 0.05
+    Cdn : 1
+    Cdt : 1.6
+    ww_l: 8.66769
+Line 1 damping set to 83273.9 Ns = 10.5489 Pa-s, based on input of -1
+WRN ../../source/Line.cpp:511 initialize(): Catenary initial profile failed for Line 1
+Initialized Line 1
+  - Line2:
+    ID: 2
+    UnstrLen: 3.025
+    N   : 25
+    d   : 0.0127
+    rho : 7999.88
+    E   : 5.92058e+07
+    EI  : 0
+    BAin: -1
+    Can : 0
+    Cat : 0.05
+    Cdn : 1
+    Cdt : 1.6
+    ww_l: 8.66769
+Line 2 damping set to 83273.9 Ns = 10.5489 Pa-s, based on input of -1
+WRN ../../source/Line.cpp:511 initialize(): Catenary initial profile failed for Line 2
+Initialized Line 2
+  - Line3:
+    ID: 3
+    UnstrLen: 3.025
+    N   : 25
+    d   : 0.0127
+    rho : 7999.88
+    E   : 5.92058e+07
+    EI  : 0
+    BAin: -1
+    Can : 0
+    Cat : 0.05
+    Cdn : 1
+    Cdt : 1.6
+    ww_l: 8.66769
+Line 3 damping set to 83273.9 Ns = 10.5489 Pa-s, based on input of -1
+WRN ../../source/Line.cpp:511 initialize(): Catenary initial profile failed for Line 3
+Initialized Line 3
+Finalizing ICs using dynamic relaxation (3X normal drag)
+Fairlead tensions converged
+Remaining error after 6.5 s = 0.900084% on line 1
+No Waves or Currents, or set externally
