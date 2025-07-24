@@ -1,0 +1,6 @@
+TEAMERLUPA2 Try 1
+
+Hannah Mankle 04/02/2025
+- used original LUPA Fall 2022 mesh
+- updated COG for float and spar
+- seems stable, pitch coefficient values are significantly lower than previous WAMIT runs.

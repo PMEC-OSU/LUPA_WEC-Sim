@@ -1,0 +1,11 @@
+spar.pot -- file type .gdf, ILOWHI=0, IRR=1
+-1                            HBOT
+1           1                  	IRAD, IDIFF
+ -300                        	NPER
+ -0.05 0.05                    	PER 
+ 1                          	NBETA 
+0.0                       	BETA 
+ 1 				NBODY
+LUPA_spar_D0_9m.gdf 
+ 0.009 0.001 -1.345 0.0 		XBODY(1-4)
+ 1  1  1  1  1  1               IMODE(1-6)
