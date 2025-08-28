@@ -48,7 +48,7 @@ pto(1).stiffness = 0;                               % [N/m] PTO Stiffness
 pto(1).damping = 0;                                 % [N/(m/s)] PTO Damping  Typical values fall between 0-10,000 N/(m/s)                        
 ptoDampingLoss = -350;                              % [N/m/s] Linear damping  Found experimentally through free decay tests. It is negative because it is a electromechanical loss.
 pto(1).location = [0 0 0];                          % [m] PTO Location 
-pto(1).setInitDisp([0 0 0],[0 0 0 0],[0 0 -0.67]);  % [m] Initial Displacement of PTO. Needed so that the PTO position oscillates around 0m for stiffness control.
+pto(1).equilibriumPosition = -0.67;                 % [m] Equilibrium position of PTO. Needed so that the PTO position oscillates around 0m for stiffness control.
 
 %% Mooring Matrix
 mooring(1) = mooringClass('mooring');           % Initialize mooringClass
