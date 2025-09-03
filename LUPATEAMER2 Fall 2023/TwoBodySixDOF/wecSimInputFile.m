@@ -3,7 +3,7 @@
 % 
 % Depth is set at 3.69 m 
 % 
-% Updated by: Hannah Mankle 6/3/2025
+% Updated by: Hannah Mankle 9/3/2025
 
 
 %% Simulation Data
@@ -48,10 +48,8 @@ body(2).geometryFile = '..\geometry\LUPA_spar_D0_9m_full.stl';
 body(2).mass = 202.21;                                             % [kg] Positively bouyant spar.
 body(2).viz.color = [211/256 211/256 211/256];
 body(2).inertia = [304.786 305.250 15.775];                      % [kg-m^2] As measured from dry swing tests
-% body(2).initial.axis = [1 1 0];
-% body(2).initial.angle = -0.0010;
-% body(2).linearDamping(4,4) = 3;
-% body(2).linearDamping(5,5) = 3; 
+body(2).linearDamping(4,4) = 200;                                   % Linear damping to help stablize model at beginning of simulation
+body(2).linearDamping(5,5) = 200; 
 body(2).quadDrag.cd = [0.6 0.6 2.8 0.6 0.6 2.8];                    % [-] Quadratic drag coefficient Cd as found from Beatty 2015 and Singh & Mittal 2005
 body(2).quadDrag.area = [0.546 0.546 0.636 0.546 0.546 0.636];      % [m^2] Characteristic area in relevant plane
 body(2).setInitDisp([0 0 0],[0 0 0 0],[0 0 -0.42]);                 % [m] Initial Displacement  Set to engage mooring lines for pre-tension.
@@ -67,8 +65,10 @@ constraint(1).location = [0 0 0];                       % [m] Constraint Locatio
 pto(1) = ptoClass('PTO1');                              % Initialize PTO Class for PTO1
 pto(1).stiffness = 0;                                   % [N/m] PTO Stiffness 
 pto(1).damping = 0;                                     % [N/(m/s)] PTO Damping  Typical values fall between 0-10,000 N/(m/s)                       
-ptoDampingLoss = -350;                                  % [N/m/s] Linear damping  Found experimentally through free decay tests. It is negative because it is a electromechanical loss.
+ptoDampingLoss = 900;                                  % [N/m/s]
 pto(1).location = [0 0 0];                              % [m] PTO Location 
+pto(1).equilibriumPosition = -0.42;                     % [m] initial PTO location, coresponses with spar displacement & needed if model is using stiffness terms.
+
 
 %% Mooring Matrix
 R = 0.325;                                   % [m] Radius of mooring plate
