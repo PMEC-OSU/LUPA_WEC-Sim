@@ -1,0 +1,57 @@
+
+WEC-Sim Input From Standard wecSimInputFile.m Of Case Directory... 
+WEC-Sim: An open-source code for simulating wave energy converters
+Version: 6.1.2
+
+Initializing the Simulation Class...
+	Case Dir: D:\mankleh\LUPA_updates\LUPA_20m_Spring2025\TwoBodySixDOF 
+Elapsed time is 1.481428 seconds.
+
+WEC-Sim Pre-processing ...   
+	Infinite water depth specified in BEM and "waves.waterDepth" not specified in input file.
+Set water depth to 200m for visualization.
+Elapsed time is 0.294984 seconds.
+
+WEC-Sim Simulation Settings:
+	Start Time                     (sec) = 0
+	End Time                       (sec) = 300
+	Time Step Size                 (sec) = 0.01
+	Ramp Function Time             (sec) = 30
+	 Number of Time Steps     = 30000 
+
+Wave Environment: 
+	Wave Type                            = No Wave (Constant Hydrodynamic Coefficients)
+	Hydro Data Wave Period, period (sec)    	= 10
+
+List of Body:
+ Number of Hydro Bodies = 2 
+
+	***** Body Number 1, Name: float *****
+	Body CG                          (m) = [-0.2,0.2,0.4]
+	Body Mass                       (kg) = 2.01688E+06 
+	Body Moments of Inertia       (kgm2) = [2.0672E+08,2.08192E+08,5.7056E+07]
+	Body Products of Inertia      (kgm2) = [0,0,0]
+
+	***** Body Number 2, Name: spar_20 *****
+	Body CG                          (m) = [0.18,0.02,-26.9]
+	Body Mass                       (kg) = 1.61768E+06 
+	Body Moments of Inertia       (kgm2) = [9.75315E+08,9.768E+08,5.048E+07]
+	Body Products of Inertia      (kgm2) = [0,0,0]
+
+List of PTO(s): Number of PTOs = 1 
+
+	***** PTO Name: PTO1 *****
+	PTO Stiffness           (N/m;Nm/rad) = 0
+	PTO Damping           (Ns/m;Nsm/rad) = 0
+
+List of Constraint(s): Number of Constraints = 1 
+
+	***** Constraint Name: Constraint1 *****
+
+
+Simulating the WEC device defined in the SimMechanics model D:\mankleh\LUPA_updates\LUPA_20m_Spring2025\TwoBodySixDOF\LUPAsimTBSD.slx...   
+Elapsed time is 15.883683 seconds.
+Elapsed time is 71.907949 seconds.
+
+Post-processing and saving...   
+Elapsed time is 1.641378 seconds.

@@ -1,0 +1,57 @@
+
+WEC-Sim Input From Standard wecSimInputFile.m Of Case Directory... 
+WEC-Sim: An open-source code for simulating wave energy converters
+Version: 6.1.2
+
+Initializing the Simulation Class...
+	Case Dir: D:\mankleh\LUPA_updates\TEAMERLUPA2_inf_depth\TwoBodySixDOF 
+Elapsed time is 0.944587 seconds.
+
+WEC-Sim Pre-processing ...   
+	Infinite water depth specified in BEM and "waves.waterDepth" not specified in input file.
+Set water depth to 200m for visualization.
+Elapsed time is 0.160291 seconds.
+
+WEC-Sim Simulation Settings:
+	Start Time                     (sec) = 0
+	End Time                       (sec) = 200
+	Time Step Size                 (sec) = 0.01
+	Ramp Function Time             (sec) = 30
+	 Number of Time Steps     = 20000 
+
+Wave Environment: 
+	Wave Type                            = No Wave (Constant Hydrodynamic Coefficients)
+	Hydro Data Wave Period, period (sec)    	= 5
+
+List of Body:
+ Number of Hydro Bodies = 2 
+
+	***** Body Number 1, Name: float *****
+	Body CG                          (m) = [0,0,0.02]
+	Body Mass                       (kg) = 248.333 
+	Body Moments of Inertia       (kgm2) = [64.6,65.06,17.83]
+	Body Products of Inertia      (kgm2) = [0,0,0]
+
+	***** Body Number 2, Name: LUPA_spar_D0_9m *****
+	Body CG                          (m) = [0.009,0.001,-1.345]
+	Body Mass                       (kg) = 202.21 
+	Body Moments of Inertia       (kgm2) = [304.786,305.25,15.775]
+	Body Products of Inertia      (kgm2) = [0,0,0]
+
+List of PTO(s): Number of PTOs = 1 
+
+	***** PTO Name: PTO1 *****
+	PTO Stiffness           (N/m;Nm/rad) = 0
+	PTO Damping           (Ns/m;Nsm/rad) = 0
+
+List of Constraint(s): Number of Constraints = 1 
+
+	***** Constraint Name: Constraint1 *****
+
+
+Simulating the WEC device defined in the SimMechanics model D:\mankleh\LUPA_updates\TEAMERLUPA2_inf_depth\TwoBodySixDOF\LUPAsimTBSD.slx...   
+Elapsed time is 0.260882 seconds.
+Elapsed time is 11.076340 seconds.
+
+Post-processing and saving...   
+Elapsed time is 1.272838 seconds.
