@@ -45,7 +45,7 @@ body(1).quadDrag.area = [0.368 0.368 0.785 0.368 0.368 0.785];  % [m^2] Characte
 %% Body 2: Spar
 body(2) = bodyClass('..\hydroData\floatspar.h5');
 body(2).geometryFile = '..\geometry\LUPA_spar_D0_9m_full.stl';
-body(2).mass = 202.21;                                             % [kg] Negatively bouyant spar.
+body(2).mass = 202.21;                                             % [kg] Negatively buoyant spar.
 body(2).viz.color = [211/256 211/256 211/256];
 body(2).inertia = [304.786 305.250 15.775];                      % [kg-m^2] As measured from dry swing tests
 % body(2).initial.axis = [1 1 0];
