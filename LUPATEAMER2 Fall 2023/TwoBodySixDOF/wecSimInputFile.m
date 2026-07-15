@@ -9,11 +9,11 @@
 %% Simulation Data
 simu=simulationClass();
 simu.simMechanicsFile = 'LUPAsimTBSD.slx';
-simu.endTime = 200;     
+simu.endTime = 60;     
 simu.rampTime = 30;
 simu.dt = 0.01;    
 simu.cicEndTime = 10;
-simu.explorer = 'on';
+simu.explorer = 'off';
 simu.domainSize = 3.7/2;   % The domain is set to half of the flume width of 3.7 meters. 
 
 %% Wave Information  
